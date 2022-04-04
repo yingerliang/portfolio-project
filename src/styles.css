@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
-  margin: 80px auto;
+  margin: 0;
 }
 
 h1,
@@ -20,7 +20,7 @@ h1 {
   font-size: 60px;
 }
 
-.introduction h2 {
+h2 {
   margin-top: 45px;
   font-size: 30px;
 }
@@ -28,6 +28,12 @@ h1 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+
+.homepage-hero {
+  background: var(--secondary-color);
+  padding: 30px;
+  padding-top: 140px;
 }
 
 .introduction {
@@ -66,6 +72,15 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.work-introduction {
+  padding: 50px;
+  background-color: aliceblue;
+}
+
+.featured-projects {
+  margin-top: 30px;
 }
 
 footer .contact-box {
