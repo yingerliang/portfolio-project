@@ -59,25 +59,36 @@ p {
   padding: 30px;
 }
 
-.about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.about-section {
+.content-container {
   padding: 150px 60px;
 }
 
-.about-section h2 {
+.content h1 {
+  font-size: 55px;
+  line-height: 80px;
+}
+
+.content h2 {
   font-size: 18px;
 }
 
-.about-section img {
-  max-width: 100%;
-  margin: 50px auto;
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
 }
 
-.about-section-content {
+.content p {
+  font-size: 14px;
+}
+
+.content-container img {
+  max-width: 80%;
+  margin: 100px auto;
+  margin-left: 40px;
+}
+
+.content {
   margin: 30px;
 }
 
