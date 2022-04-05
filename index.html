@@ -93,7 +93,7 @@
           🇳🇿 Front-end developer, based in New Zealand
         </h3>
       </div>
-      <div class="navigation-links mb-5">
+      <div class="btn btn-branding">
         <a href="/about.html" class="about-link" title="About me"> About me</a>
         <a href="/projects.html" class="projects-link" title="Projects">
           Projects</a
@@ -107,30 +107,52 @@
 
     <div class="featured-projects">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
+        <div class="row mb-3">
+          <div class="col d-none d-lg-block">
             <img
               src="/images/weatherapp.png"
-              class="img-fluid rounded d-none d-sm-block"
+              class="img-fluid rounded"
+              alt="Weather Project"
             />
           </div>
-          <div class="col-sm-6">
-            <h2 class="mb-3">Weather App</h2>
-            <p>
-              A weather app built with HTML, CSS and JavaScript. Uses an API to
-              pull in live weather data from your current location or searchable
-              location.
-            </p>
-            <div class="mt-5">
+          <div class="col">
+            <div class="project-description">
+              <h2 class="mb-5">Weather App</h2>
+              <p class="mb-5 text-muted">
+                A weather app built with HTML, CSS and JavaScript. Uses an API
+                to pull in live weather data from your current location or
+                searchable location.
+              </p>
               <a
-                role="button"
                 href="https://becca-vanilla-weather-app.netlify.app/"
-                class="primary-link weather-app-link"
-                title="Weather project"
+                class="btn btn-branding-outline"
+                title="Weather Project"
               >
                 Launch Weather App
               </a>
             </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <div class="project-description">
+              <h2 class="mb-5">Dictionary App</h2>
+              <p class="mb-5 text-muted">A dictionary app built with React.</p>
+              <a
+                href="#"
+                class="btn btn-branding-outline"
+                title="Dictionary Project"
+              >
+                Coming Soon!
+              </a>
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/dictionary.png"
+              class="img-fluid rounded"
+              alt="Dictionary Project"
+            />
           </div>
         </div>
       </div>

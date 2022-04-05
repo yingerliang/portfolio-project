@@ -37,6 +37,12 @@ h4 {
   font-size: 48px;
 }
 
+p {
+  line-height: 30px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 .homepage-hero {
   background: var(--primary-color);
   padding: 30px;
@@ -52,17 +58,17 @@ h4 {
   padding: 30px;
 }
 
-.navigation-links {
+.btn-branding {
   display: flex;
   margin: 10px auto;
   justify-content: center;
   align-items: center;
 }
 
-.navigation-links a {
+.btn-branding a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   width: 150px;
@@ -73,25 +79,29 @@ h4 {
 }
 
 .work-introduction {
-  margin: 40px auto;
-  font-size: 30px;
+  margin: 30px auto;
   color: var(--font-color);
 }
 
-.featured-projects {
-  margin: 40px auto;
+.work-introduction p {
+  font-size: 30px;
 }
 
-.primary-link {
+.btn-branding-outline {
+  color: var(--font-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  text-align: center;
-  height: 50px;
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  padding: 0 40px;
+}
+
+.featured-projects img {
+  padding: 30px 0;
 }
 
 footer .contact-box {
@@ -130,4 +140,11 @@ footer .social-links a {
   font-size: 18px;
   border-radius: 50%;
   transition: all 120ms ease-in-out;
+}
+
+@media (max-width: 995px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
