@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #f4eeff;
+  --secondary-color: #e1f2fb;
+  --branding-color: #878ecd;
+  --font-color: #39375b;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --default-font-family: "Poppins", "sans-serif";
 }
@@ -14,6 +16,7 @@ h1,
 h2,
 h3 {
   margin: 0;
+  color: #39375b;
 }
 
 h1 {
@@ -30,18 +33,22 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .homepage-hero {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   padding: 30px;
   padding-top: 140px;
 }
 
 .introduction {
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 .introduction img {
-  width: 30%;
+  width: 20%;
   padding: 30px;
 }
 
@@ -60,48 +67,67 @@ h3 {
   text-transform: capitalize;
   width: 150px;
   text-align: center;
-}
-
-.projects-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  background: var(--primary-color);
+  background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
 .work-introduction {
-  padding: 50px;
-  background-color: aliceblue;
+  margin: 40px auto;
+  font-size: 30px;
+  color: var(--font-color);
 }
 
 .featured-projects {
-  margin-top: 30px;
+  margin: 40px auto;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  height: 50px;
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 footer .contact-box {
-  background-color: antiquewhite;
+  background-color: var(--primary-color);
   padding: 30px 60px;
-  border: 4px;
+  border-radius: 4px;
+}
+
+footer p {
+  font-size: 14px;
 }
 
 .index-btn {
-  background: var(--primary-color);
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
   color: white;
   font-size: 15px;
   line-height: 20px;
-  padding: 10px 18px;
+  padding: 15px 20px;
   border-radius: 4px;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--font-color);
   font-size: 24px;
   text-align: center;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--font-color);
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 120ms ease-in-out;
 }
