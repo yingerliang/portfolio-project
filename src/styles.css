@@ -139,7 +139,7 @@ nav li.active a {
 }
 
 .work-introduction {
-  margin: 30px auto;
+  margin: 50px auto;
   color: var(--font-color);
 }
 
@@ -157,7 +157,7 @@ nav li.active a {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 65px 85px;
   margin: 60px 0;
 }
