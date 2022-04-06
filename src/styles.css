@@ -16,7 +16,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  color: #39375b;
+  color: var(--font-color);
 }
 
 h1 {
@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 p {
@@ -66,7 +66,8 @@ nav li.active a {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
+  margin: 20px;
 }
 
 .homepage-hero {
@@ -260,8 +261,12 @@ footer .social-links a:hover {
     font-size: 26px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  .navbar ul a {
+    text-align: center;
+  }
+
+  .content-container {
+    padding-top: 0;
   }
 
   .content {
